@@ -21,6 +21,7 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     NSLog(@"sdfsdfsdf");
+    NSLog(@"123123123123");
 }
 
 - (void)didReceiveMemoryWarning {
