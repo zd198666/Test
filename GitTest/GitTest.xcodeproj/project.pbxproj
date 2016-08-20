@@ -15,7 +15,11 @@
 		01B8BD5D1D6822A1007CB50C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B8BD5B1D6822A1007CB50C /* LaunchScreen.storyboard */; };
 		01B8BD681D6822A1007CB50C /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B8BD671D6822A1007CB50C /* GitTestTests.m */; };
 		01B8BD731D6822A1007CB50C /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B8BD721D6822A1007CB50C /* GitTestUITests.m */; };
+
 		01B8BD821D682718007CB50C /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B8BD811D682718007CB50C /* TestView.m */; };
+
+		38F043E41D6826D900A33B3F /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F043E31D6826D900A33B3F /* TableViewCell.m */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +56,13 @@
 		01B8BD6E1D6822A1007CB50C /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B8BD721D6822A1007CB50C /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		01B8BD741D6822A1007CB50C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		01B8BD801D682718007CB50C /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
 		01B8BD811D682718007CB50C /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+
+		38F043E21D6826D900A33B3F /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		38F043E31D6826D900A33B3F /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +122,6 @@
 				01B8BD5B1D6822A1007CB50C /* LaunchScreen.storyboard */,
 				01B8BD5E1D6822A1007CB50C /* Info.plist */,
 				01B8BD4D1D6822A1007CB50C /* Supporting Files */,
-				01B8BD801D682718007CB50C /* TestView.h */,
-				01B8BD811D682718007CB50C /* TestView.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -275,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B8BD821D682718007CB50C /* TestView.m in Sources */,
 				01B8BD551D6822A1007CB50C /* ViewController.m in Sources */,
 				01B8BD521D6822A1007CB50C /* AppDelegate.m in Sources */,
 				01B8BD4F1D6822A1007CB50C /* main.m in Sources */,
